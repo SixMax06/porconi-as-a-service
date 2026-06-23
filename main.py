@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import requests
 import random
 
-url_bestemmie = "https://raw.githubusercontent.com/BaoloLabs/BaoloLabs.github.io/refs/heads/main/lista.json" # Per gentil concessione di BaoloLabs
+url_bestemmie = "https://raw.githubusercontent.com/BaoloLabs/BaoloLabs.github.io/refs/heads/main/lista.json" # Per gentil concessione di BaoloLabs (https://github.com/BaoloLabs)
 lista_bestemmie = requests.get(url_bestemmie).json()
 
 app = FastAPI()
