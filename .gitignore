@@ -427,3 +427,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Other
+/.python-version
+/pyproject.toml
+/uv.lock
+/.venv
